@@ -23,8 +23,6 @@ body {
 
 .container {
   height: 100%;
-  background-color: #282D35;
-  height: 100%;
 }
 
 .nav {
@@ -58,6 +56,8 @@ body {
 
 .main-content {
   margin: auto;
+  height: 100%;
+  background-color: #282D35;
   padding: 20px 0px 0px 40px;
 }
 
@@ -68,11 +68,11 @@ h1 {
   font-size: 2.4rem;
 }
 
-.unorder-list {
+.unordered-list {
   font-size: 1rem;
   color: white;
 }
 
-.unorder-list > li {
+.unordered-list > li {
   padding: 0px 0px 10px 5px;
 }
