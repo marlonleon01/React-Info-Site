@@ -1,5 +1,5 @@
-import { Header } from './Header';
-import { MainContent } from './MainContent';
+import { Header } from './Components/Header';
+import { MainContent } from './Components/MainContent';
 
 export function App() {
     return (
