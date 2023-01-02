@@ -59,6 +59,9 @@ body {
   height: 100%;
   background-color: #282D35;
   padding: 20px 0px 0px 40px;
+  background-image: url(./imgs/React-logo-background.png);
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 h1 {
@@ -77,3 +80,9 @@ h1 {
 .unordered-list > li {
   padding: 0px 0px 10px 5px;
 }
+
+.unordered-list > li::marker {
+  font-size: 1.4rem;
+  color: #00D8FF;
+}
+
