@@ -4,7 +4,7 @@ import { Header } from './Header';
 import { MainContent } from './MainContent';
 import { Footer } from './Footer';
 
-function Page() {
+function App() {
     return (
         <div>
             <Header />
@@ -15,7 +15,7 @@ function Page() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Page />)
+root.render(<App />)
 
 
 
