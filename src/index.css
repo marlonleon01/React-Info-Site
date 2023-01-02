@@ -3,8 +3,60 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 8px 4px -2px rgba(54, 54, 54, 0.2);
+}
+
+.react-logo {
+  width: 80px;
+  margin: 10px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  column-gap: 15px;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.main-content {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.order-list {
+  display: inline-block;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.order-list > li {
+  padding: 5px;
+}
+
+footer {
+  background-color: rgb(100, 100, 100);
+  width: 100%;
+  color: white;
+  height: 30px;
+  bottom: 0;
+  position: absolute;
+  padding-left: 10px;
+  line-height: 30px;
 }
