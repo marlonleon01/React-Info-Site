@@ -1,5 +1,3 @@
-import logo from './imgs/React-logo.png'
-
 export function MainContent() {
     return (
         <div className="main-content">
@@ -11,7 +9,6 @@ export function MainContent() {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-            <img src={logo} className="big-react-logo" ></img>
         </div>
     )
 }

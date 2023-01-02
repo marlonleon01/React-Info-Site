@@ -73,8 +73,3 @@ h1 {
 .unorder-list > li {
   padding: 0px 0px 10px 5px;
 }
-
-.big-react-logo {
-  position: absolute;
-  right: -250px;
-}
