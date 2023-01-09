@@ -86,3 +86,24 @@ h1 {
   color: #00D8FF;
 }
 
+@media (max-width: 500px) {
+  .small-react-logo {
+    width: 30px;
+  }
+
+  .react-facts-title {
+    font-size: 1.2rem;
+  }
+
+  .react-course-description {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .unordered-list {
+    font-size: 0.8rem;
+  }
+}
