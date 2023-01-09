@@ -2,22 +2,22 @@
 
 ## Description
 
--I created this site as a way to practice building static sites with React.
--I also did it to further practice making the sites viewable and equally as nice on different screen sizes.
--It help me learn the different syntax and how to make code composable.
+I created this site as a way to practice building static sites with React.
+I also did it to further practice making the sites viewable and equally as nice on different screen sizes.
+It help me learn the different syntax and how to make code composable.
 
 ## Required Files
--Git
--Node.js
--Npm (which should be included with your node installation)
--Code editor (Visual Studio Code recommended)
+Git
+Node.js
+Npm (which should be included with your node installation)
+Code editor (Visual Studio Code recommended)
 
 ## Installation
--Open terminal
--Clone the repo with: $ git clone {url}
--cd into the folder
--type: $ npm install
--then follow from "Getting Started with Create React App"
+Open terminal
+Clone the repo with: $ git clone {url}
+cd into the folder
+type: $ npm install
+then follow from "Getting Started with Create React App"
 
 
 ## Getting Started with Create React App
