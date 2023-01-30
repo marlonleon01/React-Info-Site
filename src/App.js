@@ -6,10 +6,7 @@ export function App() {
     const [darkMode, setDarkMode] = useState(false)
     
     const toggleDarkMode = () => {
-        setDarkMode(prevDarkMode => {
-            const newDarkMode = !prevDarkMode
-            return newDarkMode
-        })
+        setDarkMode(prevDarkMode => !prevDarkMode)
     }
 
     return (
