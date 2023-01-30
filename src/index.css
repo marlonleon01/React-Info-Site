@@ -23,6 +23,8 @@ body {
 
 .container {
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Navbar */
@@ -33,7 +35,8 @@ nav {
   background-color: #ffffff;
   height: 80px;
   padding: 30px 25px;
-  box-shadow: 0px 10px 4px rgb(0, 0, 0);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
 }
 
 nav.dark {
@@ -115,10 +118,9 @@ nav.dark .toggler-slider {
 /* Main Content */
 
 main {
-  margin: auto;
-  height: 100%;
-  padding: 20px 0px 0px 40px;
-  background-image: url(./imgs/React-Icon-Light.png);
+  flex: 1 1 auto;
+  padding: 50px 40px;
+  background-image: url("./imgs/React-Icon-Light.png");
   background-repeat: no-repeat;
   background-position: right center;
   background-color: #FFF;
@@ -150,6 +152,8 @@ main.dark {
   font-size: 1.4rem;
   color: #00D8FF;
 }
+
+
 
 @media (max-width: 500px) {
   .small-react-logo {
