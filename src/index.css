@@ -33,8 +33,7 @@ nav {
   background-color: #ffffff;
   height: 80px;
   padding: 30px 25px;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
-  z-index: 1;
+  box-shadow: 0px 10px 4px rgb(0, 0, 0);
 }
 
 nav.dark {
@@ -115,18 +114,24 @@ nav.dark .toggler-slider {
 
 /* Main Content */
 
-.main-content {
+main {
   margin: auto;
   height: 100%;
-  background-color: #282D35;
   padding: 20px 0px 0px 40px;
-  background-image: url(./imgs/React-logo-background.png);
+  background-image: url(./imgs/React-Icon-Light.png);
   background-repeat: no-repeat;
   background-position: right center;
+  background-color: #FFF;
+  color: #282D35;
 }
 
-h1 {
-  color: white;
+main.dark {
+  background-image: url("./imgs/React-Icon-Dark.png"); 
+  background-color: #282D35;
+  color: #FFF;    
+}
+
+.main-title {
   margin: 0;
   padding: 15px 0px;
   font-size: 2.4rem;
@@ -135,7 +140,6 @@ h1 {
 
 .unordered-list {
   font-size: 1rem;
-  color: white;
 }
 
 .unordered-list > li {
@@ -156,11 +160,7 @@ h1 {
     font-size: 1.2rem;
   }
 
-  .react-course-description {
-    font-size: 0.8rem;
-  }
-
-  h1 {
+  .main-title {
     font-size: 1.8rem;
   }
 
